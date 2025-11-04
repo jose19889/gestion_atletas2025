@@ -1,0 +1,21 @@
+CRITICAL - 2025-01-06 13:47:08 --> Undefined array key "profile_image"
+in APPPATH\Controllers\Login.php on line 45.
+ 1 APPPATH\Controllers\Login.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "profile_image"', 'C:\\xampp\\htdocs\\apps\\app_anticorrupcion\\app\\Controllers\\Login.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-06 13:47:21 --> Undefined array key "profile_image"
+in APPPATH\Controllers\Login.php on line 45.
+ 1 APPPATH\Controllers\Login.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "profile_image"', 'C:\\xampp\\htdocs\\apps\\app_anticorrupcion\\app\\Controllers\\Login.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-06 14:03:23 --> Undefined array key "profile_image"
+in APPPATH\Controllers\Login.php on line 45.
+ 1 APPPATH\Controllers\Login.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "profile_image"', 'C:\\xampp\\htdocs\\apps\\app_anticorrupcion\\app\\Controllers\\Login.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

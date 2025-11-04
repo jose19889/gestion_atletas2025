@@ -1,0 +1,74 @@
+ERROR - 2025-01-15 10:12:37 --> mysqli_sql_exception: Table 'files' already exists in C:\xampp\htdocs\apps\app-liquidaciones\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\apps\app-liquidaciones\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `f...', 0)
+#1 C:\xampp\htdocs\apps\app-liquidaciones\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `f...')
+#2 C:\xampp\htdocs\apps\app-liquidaciones\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `f...')
+#3 C:\xampp\htdocs\apps\app-liquidaciones\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `f...')
+#4 C:\xampp\htdocs\apps\app-liquidaciones\app\Database\Migrations\2025-01-15-101055_CreateFilesTable.php(22): CodeIgniter\Database\Forge->createTable('files')
+#5 C:\xampp\htdocs\apps\app-liquidaciones\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateFilesTable->up()
+#6 C:\xampp\htdocs\apps\app-liquidaciones\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\apps\app-liquidaciones\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\apps\app-liquidaciones\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\apps\app-liquidaciones\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\apps\app-liquidaciones\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+CRITICAL - 2025-01-15 10:29:32 --> Invalid file: "file_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('file_view.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('file_view', [], true)
+ 3 APPPATH\Controllers\FileController.php(24): view('file_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->downloads()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-15 10:29:59 --> Invalid file: "files/downloads.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('files/downloads.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/downloads', [], true)
+ 3 APPPATH\Controllers\FileController.php(24): view('files/downloads', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->downloads()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-15 10:30:01 --> Invalid file: "files/downloads.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('files/downloads.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/downloads', [], true)
+ 3 APPPATH\Controllers\FileController.php(24): view('files/downloads', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->downloads()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-15 10:43:17 --> Undefined array key "filename"
+in APPPATH\Views\files\downloads.php on line 73.
+ 1 APPPATH\Views\files\downloads.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "filename"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\downloads.php', 73)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\downloads.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/downloads', [], true)
+ 5 APPPATH\Controllers\FileController.php(24): view('files/downloads', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->downloads()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-15 10:43:23 --> Undefined array key "filename"
+in APPPATH\Views\files\downloads.php on line 73.
+ 1 APPPATH\Views\files\downloads.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "filename"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\downloads.php', 73)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\downloads.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/downloads', [], true)
+ 5 APPPATH\Controllers\FileController.php(24): view('files/downloads', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->downloads()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-15 10:47:43 --> Undefined array key "filename"
+in APPPATH\Views\files\downloads.php on line 73.
+ 1 APPPATH\Views\files\downloads.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "filename"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\downloads.php', 73)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\downloads.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/downloads', [], true)
+ 5 APPPATH\Controllers\FileController.php(19): view('files/downloads', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

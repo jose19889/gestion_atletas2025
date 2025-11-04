@@ -1,0 +1,813 @@
+CRITICAL - 2025-01-17 08:32:33 --> Undefined variable $role_obj
+in APPPATH\Views\files\edit.php on line 49.
+ 1 APPPATH\Views\files\edit.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role_obj', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\edit.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/edit', [], true)
+ 5 APPPATH\Controllers\FileController.php(80): view('files/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 08:33:44 --> Undefined variable $role_obj
+in APPPATH\Views\files\edit.php on line 49.
+ 1 APPPATH\Views\files\edit.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role_obj', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\edit.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/edit', [], true)
+ 5 APPPATH\Controllers\FileController.php(80): view('files/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 08:33:45 --> Undefined variable $role_obj
+in APPPATH\Views\files\edit.php on line 49.
+ 1 APPPATH\Views\files\edit.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role_obj', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\edit.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/edit', [], true)
+ 5 APPPATH\Controllers\FileController.php(80): view('files/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 08:46:00 --> Too few arguments to function App\Controllers\FileController::update(), 0 passed in C:\xampp\htdocs\apps\app-liquidaciones\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\FileController.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->update()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 08:49:36 --> Too few arguments to function App\Controllers\FileController::update(), 0 passed in C:\xampp\htdocs\apps\app-liquidaciones\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\FileController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->update()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 08:50:22 --> Too few arguments to function App\Controllers\FileController::update(), 0 passed in C:\xampp\htdocs\apps\app-liquidaciones\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\FileController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->update()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 08:52:49 --> Too few arguments to function App\Controllers\FileController::update(), 0 passed in C:\xampp\htdocs\apps\app-liquidaciones\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\FileController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->update()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 09:02:13 --> Too few arguments to function App\Controllers\FileController::update(), 0 passed in C:\xampp\htdocs\apps\app-liquidaciones\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\FileController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->update()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 09:02:27 --> Too few arguments to function App\Controllers\FileController::update(), 0 passed in C:\xampp\htdocs\apps\app-liquidaciones\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\FileController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->update()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 10:10:03 --> Undefined variable $tipo_denuncia
+in APPPATH\Views\files\upload.php on line 56.
+ 1 APPPATH\Views\files\upload.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipo_denuncia', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 56)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(22): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 10:12:36 --> Undefined variable $emails
+in APPPATH\Views\files\upload.php on line 106.
+ 1 APPPATH\Views\files\upload.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $emails', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 106)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(22): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-17 13:04:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as Fname ,   d.name FROM files f JOIN docs_types d ON f.id_file_type = d.id' at line 1 in C:\xampp\htdocs\apps\app-liquidaciones\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\apps\app-liquidaciones\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT  f.id, f...', 0)
+#1 C:\xampp\htdocs\apps\app-liquidaciones\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT  f.id, f...')
+#2 C:\xampp\htdocs\apps\app-liquidaciones\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT  f.id, f...')
+#3 C:\xampp\htdocs\apps\app-liquidaciones\app\Models\FileModel.php(21): CodeIgniter\Database\BaseConnection->query('SELECT  f.id, f...')
+#4 C:\xampp\htdocs\apps\app-liquidaciones\app\Controllers\FileController.php(24): App\Models\FileModel->Getfileinfo()
+#5 C:\xampp\htdocs\apps\app-liquidaciones\system\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+#6 C:\xampp\htdocs\apps\app-liquidaciones\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+#7 C:\xampp\htdocs\apps\app-liquidaciones\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\apps\app-liquidaciones\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-17 13:04:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as Fname ,   d.name FROM files f JOIN docs_types d ON f.id_file_type = d.id' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\FileModel.php(21): CodeIgniter\Database\BaseConnection->query('SELECT  f.id, f.file_path , f.name, as Fname ,   d.name FROM files f JOIN docs_types d ON f.id_file_type = d.id ')
+ 2 APPPATH\Controllers\FileController.php(24): App\Models\FileModel->Getfileinfo()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-17 13:05:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as Fname , d.name FROM files f JOIN docs_types d ON f.id_file_type = d.id' at line 1 in C:\xampp\htdocs\apps\app-liquidaciones\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\apps\app-liquidaciones\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT  f.id, f...', 0)
+#1 C:\xampp\htdocs\apps\app-liquidaciones\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT  f.id, f...')
+#2 C:\xampp\htdocs\apps\app-liquidaciones\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT  f.id, f...')
+#3 C:\xampp\htdocs\apps\app-liquidaciones\app\Models\FileModel.php(21): CodeIgniter\Database\BaseConnection->query('SELECT  f.id, f...')
+#4 C:\xampp\htdocs\apps\app-liquidaciones\app\Controllers\FileController.php(24): App\Models\FileModel->Getfileinfo()
+#5 C:\xampp\htdocs\apps\app-liquidaciones\system\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+#6 C:\xampp\htdocs\apps\app-liquidaciones\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+#7 C:\xampp\htdocs\apps\app-liquidaciones\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\apps\app-liquidaciones\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-17 13:05:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as Fname , d.name FROM files f JOIN docs_types d ON f.id_file_type = d.id' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\FileModel.php(21): CodeIgniter\Database\BaseConnection->query('SELECT  f.id, f.file_path , f.name, as Fname , d.name FROM files f JOIN docs_types d ON f.id_file_type = d.id')
+ 2 APPPATH\Controllers\FileController.php(24): App\Models\FileModel->Getfileinfo()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-17 13:05:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as Fname , d.name FROM files f JOIN docs_types d ON f.id_file_type = d.id' at line 1 in C:\xampp\htdocs\apps\app-liquidaciones\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\apps\app-liquidaciones\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT  f.id, f...', 0)
+#1 C:\xampp\htdocs\apps\app-liquidaciones\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT  f.id, f...')
+#2 C:\xampp\htdocs\apps\app-liquidaciones\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT  f.id, f...')
+#3 C:\xampp\htdocs\apps\app-liquidaciones\app\Models\FileModel.php(21): CodeIgniter\Database\BaseConnection->query('SELECT  f.id, f...')
+#4 C:\xampp\htdocs\apps\app-liquidaciones\app\Controllers\FileController.php(24): App\Models\FileModel->Getfileinfo()
+#5 C:\xampp\htdocs\apps\app-liquidaciones\system\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+#6 C:\xampp\htdocs\apps\app-liquidaciones\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+#7 C:\xampp\htdocs\apps\app-liquidaciones\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\apps\app-liquidaciones\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-17 13:05:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as Fname , d.name FROM files f JOIN docs_types d ON f.id_file_type = d.id' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\FileModel.php(21): CodeIgniter\Database\BaseConnection->query('SELECT  f.id, f.file_path , f.name, as Fname , d.name FROM files f JOIN docs_types d ON f.id_file_type = d.id')
+ 2 APPPATH\Controllers\FileController.php(24): App\Models\FileModel->Getfileinfo()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-17 13:05:45 --> mysqli_sql_exception: Table 'app_liquidaciones.docs_types' doesn't exist in C:\xampp\htdocs\apps\app-liquidaciones\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\apps\app-liquidaciones\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT  f.id, f...', 0)
+#1 C:\xampp\htdocs\apps\app-liquidaciones\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT  f.id, f...')
+#2 C:\xampp\htdocs\apps\app-liquidaciones\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT  f.id, f...')
+#3 C:\xampp\htdocs\apps\app-liquidaciones\app\Models\FileModel.php(21): CodeIgniter\Database\BaseConnection->query('SELECT  f.id, f...')
+#4 C:\xampp\htdocs\apps\app-liquidaciones\app\Controllers\FileController.php(24): App\Models\FileModel->Getfileinfo()
+#5 C:\xampp\htdocs\apps\app-liquidaciones\system\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+#6 C:\xampp\htdocs\apps\app-liquidaciones\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+#7 C:\xampp\htdocs\apps\app-liquidaciones\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\apps\app-liquidaciones\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-17 13:05:45 --> Table 'app_liquidaciones.docs_types' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\FileModel.php(21): CodeIgniter\Database\BaseConnection->query('SELECT  f.id, f.file_path , f.name as Fname , d.name FROM files f JOIN docs_types d ON f.id_file_type = d.id')
+ 2 APPPATH\Controllers\FileController.php(24): App\Models\FileModel->Getfileinfo()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-17 13:05:46 --> mysqli_sql_exception: Table 'app_liquidaciones.docs_types' doesn't exist in C:\xampp\htdocs\apps\app-liquidaciones\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\apps\app-liquidaciones\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT  f.id, f...', 0)
+#1 C:\xampp\htdocs\apps\app-liquidaciones\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT  f.id, f...')
+#2 C:\xampp\htdocs\apps\app-liquidaciones\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT  f.id, f...')
+#3 C:\xampp\htdocs\apps\app-liquidaciones\app\Models\FileModel.php(21): CodeIgniter\Database\BaseConnection->query('SELECT  f.id, f...')
+#4 C:\xampp\htdocs\apps\app-liquidaciones\app\Controllers\FileController.php(24): App\Models\FileModel->Getfileinfo()
+#5 C:\xampp\htdocs\apps\app-liquidaciones\system\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+#6 C:\xampp\htdocs\apps\app-liquidaciones\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+#7 C:\xampp\htdocs\apps\app-liquidaciones\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\apps\app-liquidaciones\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-17 13:05:46 --> Table 'app_liquidaciones.docs_types' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\FileModel.php(21): CodeIgniter\Database\BaseConnection->query('SELECT  f.id, f.file_path , f.name as Fname , d.name FROM files f JOIN docs_types d ON f.id_file_type = d.id')
+ 2 APPPATH\Controllers\FileController.php(24): App\Models\FileModel->Getfileinfo()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 13:08:36 --> Class "App\Models\FileTypeModel" not found
+in APPPATH\Controllers\FileController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-17 13:10:16 --> mysqli_sql_exception: Table 'app_liquidaciones.docs_type' doesn't exist in C:\xampp\htdocs\apps\app-liquidaciones\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\apps\app-liquidaciones\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\apps\app-liquidaciones\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\apps\app-liquidaciones\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\apps\app-liquidaciones\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\apps\app-liquidaciones\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apps\app-liquidaciones\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\apps\app-liquidaciones\app\Controllers\FileController.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\apps\app-liquidaciones\system\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+#8 C:\xampp\htdocs\apps\app-liquidaciones\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+#9 C:\xampp\htdocs\apps\app-liquidaciones\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\apps\app-liquidaciones\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2025-01-17 13:10:16 --> Table 'app_liquidaciones.docs_type' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `docs_type`
+ORDER BY `id` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\FileController.php(28): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 13:24:39 --> Undefined array key "fname"
+in APPPATH\Views\files\upload.php on line 120.
+ 1 APPPATH\Views\files\upload.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fname"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 13:24:57 --> Undefined array key "fname"
+in APPPATH\Views\files\upload.php on line 120.
+ 1 APPPATH\Views\files\upload.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fname"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 13:24:58 --> Undefined array key "fname"
+in APPPATH\Views\files\upload.php on line 120.
+ 1 APPPATH\Views\files\upload.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fname"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 13:25:00 --> Undefined array key "fname"
+in APPPATH\Views\files\upload.php on line 120.
+ 1 APPPATH\Views\files\upload.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fname"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 13:25:55 --> Undefined array key "fnames"
+in APPPATH\Views\files\upload.php on line 120.
+ 1 APPPATH\Views\files\upload.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fnames"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 13:25:56 --> Undefined array key "fnames"
+in APPPATH\Views\files\upload.php on line 120.
+ 1 APPPATH\Views\files\upload.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fnames"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 13:26:29 --> Undefined array key "fnames"
+in APPPATH\Views\files\upload.php on line 120.
+ 1 APPPATH\Views\files\upload.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fnames"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 13:26:30 --> Undefined array key "fnames"
+in APPPATH\Views\files\upload.php on line 120.
+ 1 APPPATH\Views\files\upload.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fnames"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 13:27:14 --> Undefined array key "fnames"
+in APPPATH\Views\files\upload.php on line 120.
+ 1 APPPATH\Views\files\upload.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fnames"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 13:30:05 --> Undefined array key "fname"
+in APPPATH\Views\files\upload.php on line 119.
+ 1 APPPATH\Views\files\upload.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fname"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 119)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 13:31:16 --> Undefined array key "fname"
+in APPPATH\Views\files\upload.php on line 119.
+ 1 APPPATH\Views\files\upload.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fname"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 119)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 13:31:17 --> Undefined array key "fname"
+in APPPATH\Views\files\upload.php on line 119.
+ 1 APPPATH\Views\files\upload.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fname"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 119)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 13:32:45 --> Undefined array key "fname"
+in APPPATH\Views\files\upload.php on line 119.
+ 1 APPPATH\Views\files\upload.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fname"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 119)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 13:32:46 --> Undefined array key "fname"
+in APPPATH\Views\files\upload.php on line 119.
+ 1 APPPATH\Views\files\upload.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fname"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 119)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 13:32:56 --> Undefined array key "files_name"
+in APPPATH\Views\files\upload.php on line 120.
+ 1 APPPATH\Views\files\upload.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "files_name"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 13:33:19 --> Undefined array key ""
+in APPPATH\Views\files\upload.php on line 120.
+ 1 APPPATH\Views\files\upload.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 13:37:17 --> Undefined array key "name"
+in APPPATH\Views\files\upload.php on line 69.
+ 1 APPPATH\Views\files\upload.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 69)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 13:38:10 --> Undefined array key "name"
+in APPPATH\Views\files\upload.php on line 69.
+ 1 APPPATH\Views\files\upload.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 69)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 13:38:11 --> Undefined array key "name"
+in APPPATH\Views\files\upload.php on line 69.
+ 1 APPPATH\Views\files\upload.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 69)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 13:38:39 --> Undefined array key "fname"
+in APPPATH\Views\files\upload.php on line 119.
+ 1 APPPATH\Views\files\upload.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fname"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 119)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 13:41:47 --> Undefined array key "fname"
+in APPPATH\Views\files\upload.php on line 119.
+ 1 APPPATH\Views\files\upload.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fname"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 119)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 13:41:49 --> Undefined array key "fname"
+in APPPATH\Views\files\upload.php on line 119.
+ 1 APPPATH\Views\files\upload.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fname"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 119)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 13:42:19 --> Undefined array key "fname"
+in APPPATH\Views\files\upload.php on line 119.
+ 1 APPPATH\Views\files\upload.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fname"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 119)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 13:42:33 --> Undefined array key "ft_name"
+in APPPATH\Views\files\upload.php on line 120.
+ 1 APPPATH\Views\files\upload.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ft_name"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 13:44:46 --> Undefined array key "ft_name"
+in APPPATH\Views\files\upload.php on line 120.
+ 1 APPPATH\Views\files\upload.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ft_name"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 13:44:47 --> Undefined array key "ft_name"
+in APPPATH\Views\files\upload.php on line 120.
+ 1 APPPATH\Views\files\upload.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ft_name"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 13:44:49 --> Undefined array key "ft_name"
+in APPPATH\Views\files\upload.php on line 120.
+ 1 APPPATH\Views\files\upload.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ft_name"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 13:50:48 --> Undefined array key "ft_name"
+in APPPATH\Views\files\upload.php on line 120.
+ 1 APPPATH\Views\files\upload.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ft_name"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 13:56:30 --> Undefined array key "ft_name"
+in APPPATH\Views\files\upload.php on line 120.
+ 1 APPPATH\Views\files\upload.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ft_name"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 13:56:43 --> Undefined array key "doc_type_name"
+in APPPATH\Views\files\upload.php on line 120.
+ 1 APPPATH\Views\files\upload.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "doc_type_name"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 14:38:54 --> Undefined array key "doc_type_name"
+in APPPATH\Views\files\upload.php on line 120.
+ 1 APPPATH\Views\files\upload.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "doc_type_name"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 14:49:50 --> Undefined array key "doc_type_name"
+in APPPATH\Views\files\upload.php on line 120.
+ 1 APPPATH\Views\files\upload.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "doc_type_name"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 14:50:13 --> Undefined array key "doc_type_name"
+in APPPATH\Views\files\upload.php on line 120.
+ 1 APPPATH\Views\files\upload.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "doc_type_name"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 14:50:16 --> Undefined array key "doc_type_name"
+in APPPATH\Views\files\upload.php on line 120.
+ 1 APPPATH\Views\files\upload.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "doc_type_name"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 14:52:08 --> Undefined array key "doc_type_name"
+in APPPATH\Views\files\upload.php on line 120.
+ 1 APPPATH\Views\files\upload.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "doc_type_name"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 14:53:35 --> Undefined array key "doc_type_name"
+in APPPATH\Views\files\upload.php on line 120.
+ 1 APPPATH\Views\files\upload.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "doc_type_name"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 14:53:37 --> Undefined array key "doc_type_name"
+in APPPATH\Views\files\upload.php on line 120.
+ 1 APPPATH\Views\files\upload.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "doc_type_name"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 14:54:48 --> Undefined array key "doc_type_name"
+in APPPATH\Views\files\upload.php on line 120.
+ 1 APPPATH\Views\files\upload.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "doc_type_name"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 15:09:28 --> Undefined array key "doc_type_name"
+in APPPATH\Views\files\upload.php on line 120.
+ 1 APPPATH\Views\files\upload.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "doc_type_name"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 15:09:34 --> Undefined array key "doc_type_name"
+in APPPATH\Views\files\upload.php on line 120.
+ 1 APPPATH\Views\files\upload.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "doc_type_name"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 15:09:58 --> Undefined array key "doc_type_name"
+in APPPATH\Views\files\upload.php on line 120.
+ 1 APPPATH\Views\files\upload.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "doc_type_name"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 15:10:16 --> Undefined array key "doc_type_name"
+in APPPATH\Views\files\upload.php on line 120.
+ 1 APPPATH\Views\files\upload.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "doc_type_name"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 15:10:18 --> Undefined array key "doc_type_name"
+in APPPATH\Views\files\upload.php on line 120.
+ 1 APPPATH\Views\files\upload.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "doc_type_name"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(30): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 15:11:54 --> Undefined array key "doc_type_name"
+in APPPATH\Views\files\upload.php on line 120.
+ 1 APPPATH\Views\files\upload.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "doc_type_name"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(37): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 15:12:09 --> Undefined array key "doc_type_name"
+in APPPATH\Views\files\upload.php on line 120.
+ 1 APPPATH\Views\files\upload.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "doc_type_name"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(37): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 15:13:07 --> Undefined array key "doc_type_name"
+in APPPATH\Views\files\upload.php on line 120.
+ 1 APPPATH\Views\files\upload.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "doc_type_name"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 120)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(29): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 15:14:06 --> Undefined variable $ftypes
+in APPPATH\Views\files\upload.php on line 68.
+ 1 APPPATH\Views\files\upload.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ftypes', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 68)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(32): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-17 15:14:59 --> mysqli_sql_exception: Column 'id' in order clause is ambiguous in C:\xampp\htdocs\apps\app-liquidaciones\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\apps\app-liquidaciones\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `doc_typ...', 0)
+#1 C:\xampp\htdocs\apps\app-liquidaciones\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `doc_typ...')
+#2 C:\xampp\htdocs\apps\app-liquidaciones\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `doc_typ...')
+#3 C:\xampp\htdocs\apps\app-liquidaciones\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `doc_typ...', Array, false)
+#4 C:\xampp\htdocs\apps\app-liquidaciones\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apps\app-liquidaciones\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\apps\app-liquidaciones\app\Models\FileModel.php(36): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\apps\app-liquidaciones\app\Controllers\FileController.php(25): App\Models\FileModel->Getfileinfo()
+#8 C:\xampp\htdocs\apps\app-liquidaciones\system\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+#9 C:\xampp\htdocs\apps\app-liquidaciones\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+#10 C:\xampp\htdocs\apps\app-liquidaciones\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\apps\app-liquidaciones\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-01-17 15:14:59 --> Column 'id' in order clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `doc_types`.`id` AS `doc_types_id`, `doc_types`.`ft_name` AS `doc_type_name`, `files`.`id` AS `file_id`, `files`.`name`, `files`.`file_name`, `files`.`file_path`
+FROM `files`
+LEFT JOIN `doc_types` ON `files`.`id_file_type` = `doc_types`.`id`
+ORDER BY `id` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\FileModel.php(36): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\FileController.php(25): App\Models\FileModel->Getfileinfo()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 15:15:35 --> Undefined array key "id"
+in APPPATH\Views\files\upload.php on line 118.
+ 1 APPPATH\Views\files\upload.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 118)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(29): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 15:15:42 --> Undefined array key "id"
+in APPPATH\Views\files\upload.php on line 118.
+ 1 APPPATH\Views\files\upload.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 118)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(29): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 15:16:14 --> Undefined array key "id"
+in APPPATH\Views\files\upload.php on line 125.
+ 1 APPPATH\Views\files\upload.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 125)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(29): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-17 15:24:38 --> Undefined array key "id"
+in APPPATH\Views\files\downloads.php on line 85.
+ 1 APPPATH\Views\files\downloads.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\downloads.php', 85)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\downloads.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/downloads', [], true)
+ 5 APPPATH\Controllers\FileController.php(28): view('files/downloads', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

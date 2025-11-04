@@ -1,0 +1,70 @@
+CRITICAL - 2025-01-16 08:58:01 --> Invalid file: "files/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('files/index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/index', [], true)
+ 3 APPPATH\Controllers\FileController.php(15): view('files/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 09:19:07 --> Invalid file: "files/uploads.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('files/uploads.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/uploads', [], true)
+ 3 APPPATH\Controllers\FileController.php(19): view('files/uploads')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 09:19:12 --> Invalid file: "files/uploads.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('files/uploads.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/uploads', [], true)
+ 3 APPPATH\Controllers\FileController.php(19): view('files/uploads')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 09:20:28 --> Undefined variable $taxes
+in APPPATH\Views\files\upload.php on line 65.
+ 1 APPPATH\Views\files\upload.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $taxes', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 65)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(19): view('files/upload')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 09:45:29 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\FileController.php(34): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->upload_store()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 11:10:07 --> Undefined variable $tx
+in APPPATH\Views\files\upload.php on line 91.
+ 1 APPPATH\Views\files\upload.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tx', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 91)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(22): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 11:11:08 --> Undefined array key "file_id"
+in APPPATH\Views\files\upload.php on line 89.
+ 1 APPPATH\Views\files\upload.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "file_id"', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php', 89)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\files\\upload.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('files/upload', [], true)
+ 5 APPPATH\Controllers\FileController.php(22): view('files/upload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\FileController->files_upload()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FileController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,7 @@
+CRITICAL - 2025-01-22 07:55:58 --> Undefined variable $userId
+in APPPATH\Controllers\Tax.php on line 25.
+ 1 APPPATH\Controllers\Tax.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userId', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Controllers\\Tax.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Tax->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tax))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

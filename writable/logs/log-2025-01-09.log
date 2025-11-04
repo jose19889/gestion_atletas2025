@@ -1,0 +1,154 @@
+ERROR - 2025-01-09 09:14:03 --> mysqli_sql_exception: Table 'app_liquidaciones.taxes_code' doesn't exist in C:\xampp\htdocs\apps\app-liquidaciones\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\apps\app-liquidaciones\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\apps\app-liquidaciones\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\apps\app-liquidaciones\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\apps\app-liquidaciones\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\apps\app-liquidaciones\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apps\app-liquidaciones\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\apps\app-liquidaciones\app\Controllers\Tax.php(27): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\apps\app-liquidaciones\system\CodeIgniter.php(919): App\Controllers\Tax->create()
+#8 C:\xampp\htdocs\apps\app-liquidaciones\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tax))
+#9 C:\xampp\htdocs\apps\app-liquidaciones\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\apps\app-liquidaciones\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2025-01-09 09:14:03 --> Table 'app_liquidaciones.taxes_code' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `taxes_code`
+ORDER BY `id` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Tax.php(27): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Tax->create()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tax))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 09:50:34 --> Undefined variable $taxes
+in APPPATH\Views\dashboard-guest.php on line 95.
+ 1 APPPATH\Views\dashboard-guest.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $taxes', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\dashboard-guest.php', 95)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\dashboard-guest.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard-guest', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(47): view('dashboard-guest')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->guest_area()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 09:50:39 --> Undefined variable $taxes
+in APPPATH\Views\dashboard-guest.php on line 95.
+ 1 APPPATH\Views\dashboard-guest.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $taxes', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\dashboard-guest.php', 95)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\dashboard-guest.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard-guest', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(47): view('dashboard-guest')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->guest_area()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 09:51:49 --> Undefined variable $taxes
+in APPPATH\Views\dashboard-guest.php on line 95.
+ 1 APPPATH\Views\dashboard-guest.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $taxes', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\dashboard-guest.php', 95)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\dashboard-guest.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard-guest', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(47): view('dashboard-guest')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->guest_area()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 09:51:51 --> Undefined variable $taxes
+in APPPATH\Views\dashboard-guest.php on line 95.
+ 1 APPPATH\Views\dashboard-guest.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $taxes', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\dashboard-guest.php', 95)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\dashboard-guest.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard-guest', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(47): view('dashboard-guest')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->guest_area()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 09:52:13 --> Undefined variable $taxes
+in APPPATH\Views\dashboard-guest.php on line 95.
+ 1 APPPATH\Views\dashboard-guest.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $taxes', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\dashboard-guest.php', 95)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\dashboard-guest.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard-guest', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(47): view('dashboard-guest')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->guest_area()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 09:53:24 --> Undefined variable $taxes
+in APPPATH\Views\dashboard-guest.php on line 95.
+ 1 APPPATH\Views\dashboard-guest.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $taxes', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\dashboard-guest.php', 95)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\dashboard-guest.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard-guest', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(47): view('dashboard-guest')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->guest_area()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 09:53:25 --> Undefined variable $taxes
+in APPPATH\Views\dashboard-guest.php on line 95.
+ 1 APPPATH\Views\dashboard-guest.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $taxes', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\dashboard-guest.php', 95)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\dashboard-guest.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard-guest', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(47): view('dashboard-guest')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->guest_area()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 09:53:28 --> Undefined variable $taxes
+in APPPATH\Views\dashboard-guest.php on line 95.
+ 1 APPPATH\Views\dashboard-guest.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $taxes', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\dashboard-guest.php', 95)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\dashboard-guest.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard-guest', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(47): view('dashboard-guest')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->guest_area()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 09:56:01 --> Undefined variable $taxes
+in APPPATH\Views\dashboard-guest.php on line 95.
+ 1 APPPATH\Views\dashboard-guest.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $taxes', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\dashboard-guest.php', 95)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\dashboard-guest.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard-guest', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(56): view('dashboard-guest')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->guest_area()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 09:56:03 --> Undefined variable $taxes
+in APPPATH\Views\dashboard-guest.php on line 95.
+ 1 APPPATH\Views\dashboard-guest.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $taxes', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\dashboard-guest.php', 95)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\dashboard-guest.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard-guest', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(56): view('dashboard-guest')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->guest_area()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 09:56:04 --> Undefined variable $taxes
+in APPPATH\Views\dashboard-guest.php on line 95.
+ 1 APPPATH\Views\dashboard-guest.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $taxes', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\dashboard-guest.php', 95)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Views\\dashboard-guest.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('dashboard-guest', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(56): view('dashboard-guest')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->guest_area()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 15:31:22 --> Undefined variable $userId
+in APPPATH\Controllers\Tax.php on line 25.
+ 1 APPPATH\Controllers\Tax.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userId', 'C:\\xampp\\htdocs\\apps\\app-liquidaciones\\app\\Controllers\\Tax.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Tax->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tax))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

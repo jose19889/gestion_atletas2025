@@ -1,0 +1,606 @@
+CRITICAL - 2025-07-23 09:43:05 --> Invalid file: "team/create.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('team/create.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('team/create', [], true)
+ 3 APPPATH\Controllers\Teams.php(21): view('team/create')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Teams->create()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 09:43:07 --> Invalid file: "team/create.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('team/create.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('team/create', [], true)
+ 3 APPPATH\Controllers\Teams.php(21): view('team/create')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Teams->create()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 09:44:27 --> Invalid file: "team/create.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('team/create.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('team/create', [], true)
+ 3 APPPATH\Controllers\Teams.php(21): view('team/create')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Teams->create()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 09:45:14 --> Undefined variable $roles
+in APPPATH\Views\teams\index.php on line 88.
+ 1 APPPATH\Views\teams\index.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roles', 'C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\teams\\index.php', 88)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\teams\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('teams/index', [], true)
+ 5 APPPATH\Controllers\Teams.php(11): view('teams/index')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Teams->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 09:45:17 --> Undefined variable $roles
+in APPPATH\Views\teams\index.php on line 88.
+ 1 APPPATH\Views\teams\index.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roles', 'C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\teams\\index.php', 88)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\teams\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('teams/index', [], true)
+ 5 APPPATH\Controllers\Teams.php(11): view('teams/index')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Teams->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 09:46:04 --> Undefined variable $roles
+in APPPATH\Views\teams\index.php on line 88.
+ 1 APPPATH\Views\teams\index.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roles', 'C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\teams\\index.php', 88)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\teams\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('teams/index', [], true)
+ 5 APPPATH\Controllers\Teams.php(11): view('teams/index')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Teams->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 09:53:08 --> Invalid file: "team/create.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('team/create.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('team/create', [], true)
+ 3 APPPATH\Controllers\Teams.php(21): view('team/create')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Teams->create()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 09:53:11 --> Invalid file: "team/create.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('team/create.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('team/create', [], true)
+ 3 APPPATH\Controllers\Teams.php(21): view('team/create')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Teams->create()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 09:53:24 --> Invalid file: "teamd/create.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('teamd/create.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('teamd/create', [], true)
+ 3 APPPATH\Controllers\Teams.php(21): view('teamd/create')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Teams->create()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 09:53:27 --> Invalid file: "teamd/create.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('teamd/create.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('teamd/create', [], true)
+ 3 APPPATH\Controllers\Teams.php(21): view('teamd/create')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Teams->create()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-07-23 10:25:14 --> mysqli_sql_exception: Table 'gestor_denuncias.clubs' doesn't exist in C:\xampp\htdocs\apps\gest_atletas\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\apps\gest_atletas\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\apps\gest_atletas\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\apps\gest_atletas\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\apps\gest_atletas\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\apps\gest_atletas\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\apps\gest_atletas\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\apps\gest_atletas\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\apps\gest_atletas\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\apps\gest_atletas\app\Controllers\Teams.php(72): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\apps\gest_atletas\system\CodeIgniter.php(919): App\Controllers\Teams->insert()
+#10 C:\xampp\htdocs\apps\gest_atletas\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+#11 C:\xampp\htdocs\apps\gest_atletas\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\apps\gest_atletas\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2025-07-23 10:25:14 --> Table 'gestor_denuncias.clubs' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `clubs` (`nombre_club`, `siglas`, `ciudad`, `pais`, `telefono`, `correo`, `anio_fundacion`, `presidente`, `entrenador`, `estadio`, `created_at`, `updated_at`) VALUES (:nombre_club:, :siglas:, :ciudad:, :pais:, :telefono:, :correo:, :anio_fundacion:, :presidente:, :entrenador:, :estadio:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Teams.php(72): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Teams->insert()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 10:34:12 --> Undefined array key "nombre"
+in APPPATH\Views\teams\index.php on line 86.
+ 1 APPPATH\Views\teams\index.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\teams\\index.php', 86)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\teams\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('teams/index', [], true)
+ 5 APPPATH\Controllers\Teams.php(21): view('teams/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Teams->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 10:34:43 --> Undefined array key "fundacion"
+in APPPATH\Views\teams\index.php on line 92.
+ 1 APPPATH\Views\teams\index.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fundacion"', 'C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\teams\\index.php', 92)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\teams\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('teams/index', [], true)
+ 5 APPPATH\Controllers\Teams.php(21): view('teams/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Teams->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teams))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 11:05:20 --> Undefined variable $jugador
+in APPPATH\Views\players\create.php on line 128.
+ 1 APPPATH\Views\players\create.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jugador', 'C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\create.php', 128)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\create.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('players/create', [], true)
+ 5 APPPATH\Controllers\Players.php(15): view('players/create')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Players->create()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 11:06:49 --> Undefined variable $jugador
+in APPPATH\Views\players\create.php on line 128.
+ 1 APPPATH\Views\players\create.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jugador', 'C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\create.php', 128)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\create.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('players/create', [], true)
+ 5 APPPATH\Controllers\Players.php(15): view('players/create')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Players->create()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 11:25:32 --> Undefined variable $clubs
+in APPPATH\Views\players\create.php on line 94.
+ 1 APPPATH\Views\players\create.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clubs', 'C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\create.php', 94)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\create.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('players/create', [], true)
+ 5 APPPATH\Controllers\Players.php(17): view('players/create')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Players->create()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 11:26:31 --> Undefined array key "nombre"
+in APPPATH\Views\players\create.php on line 95.
+ 1 APPPATH\Views\players\create.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\create.php', 95)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\create.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('players/create', [], true)
+ 5 APPPATH\Controllers\Players.php(20): view('players/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Players->create()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 14:05:39 --> Class "App\Models\PlayerModel" not found
+in APPPATH\Controllers\Players.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Players->insert()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 14:21:35 --> Undefined array key "nombre"
+in APPPATH\Views\players\index.php on line 89.
+ 1 APPPATH\Views\players\index.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\index.php', 89)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('players/index', [], true)
+ 5 APPPATH\Controllers\Players.php(24): view('players/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Players->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 14:21:43 --> Undefined array key "nombre"
+in APPPATH\Views\players\index.php on line 89.
+ 1 APPPATH\Views\players\index.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\index.php', 89)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('players/index', [], true)
+ 5 APPPATH\Controllers\Players.php(24): view('players/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Players->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 14:22:09 --> syntax error, unexpected token ";"
+in APPPATH\Views\players\index.php on line 89.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('players/index', [], true)
+ 3 APPPATH\Controllers\Players.php(24): view('players/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Players->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 14:22:46 --> Undefined array key "nombre"
+in APPPATH\Views\players\index.php on line 89.
+ 1 APPPATH\Views\players\index.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\index.php', 89)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('players/index', [], true)
+ 5 APPPATH\Controllers\Players.php(24): view('players/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Players->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 14:24:16 --> Undefined array key "club"
+in APPPATH\Views\players\index.php on line 94.
+ 1 APPPATH\Views\players\index.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "club"', 'C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\index.php', 94)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('players/index', [], true)
+ 5 APPPATH\Controllers\Players.php(24): view('players/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Players->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 14:24:19 --> Undefined array key "club"
+in APPPATH\Views\players\index.php on line 94.
+ 1 APPPATH\Views\players\index.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "club"', 'C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\index.php', 94)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('players/index', [], true)
+ 5 APPPATH\Controllers\Players.php(24): view('players/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Players->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 14:24:20 --> Undefined array key "club"
+in APPPATH\Views\players\index.php on line 94.
+ 1 APPPATH\Views\players\index.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "club"', 'C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\index.php', 94)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('players/index', [], true)
+ 5 APPPATH\Controllers\Players.php(24): view('players/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Players->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 14:25:44 --> Undefined array key "nombre_club"
+in APPPATH\Views\players\index.php on line 94.
+ 1 APPPATH\Views\players\index.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_club"', 'C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\index.php', 94)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('players/index', [], true)
+ 5 APPPATH\Controllers\Players.php(24): view('players/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Players->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 14:25:46 --> Undefined array key "nombre_club"
+in APPPATH\Views\players\index.php on line 94.
+ 1 APPPATH\Views\players\index.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_club"', 'C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\index.php', 94)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('players/index', [], true)
+ 5 APPPATH\Controllers\Players.php(24): view('players/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Players->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 14:26:36 --> Undefined array key "club_nombre"
+in APPPATH\Views\players\index.php on line 94.
+ 1 APPPATH\Views\players\index.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "club_nombre"', 'C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\index.php', 94)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('players/index', [], true)
+ 5 APPPATH\Controllers\Players.php(24): view('players/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Players->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 14:26:37 --> Undefined array key "club_nombre"
+in APPPATH\Views\players\index.php on line 94.
+ 1 APPPATH\Views\players\index.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "club_nombre"', 'C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\index.php', 94)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('players/index', [], true)
+ 5 APPPATH\Controllers\Players.php(24): view('players/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Players->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 14:26:39 --> Undefined array key "club_nombre"
+in APPPATH\Views\players\index.php on line 94.
+ 1 APPPATH\Views\players\index.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "club_nombre"', 'C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\index.php', 94)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('players/index', [], true)
+ 5 APPPATH\Controllers\Players.php(24): view('players/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Players->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 14:28:43 --> Undefined variable $id
+in APPPATH\Controllers\Players.php on line 20.
+ 1 APPPATH\Controllers\Players.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Controllers\\Players.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Players->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-07-23 14:31:42 --> mysqli_sql_exception: Table 'gestor_denuncias.clubs' doesn't exist in C:\xampp\htdocs\apps\gest_atletas\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\apps\gest_atletas\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `players...', 0)
+#1 C:\xampp\htdocs\apps\gest_atletas\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `players...')
+#2 C:\xampp\htdocs\apps\gest_atletas\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `players...')
+#3 C:\xampp\htdocs\apps\gest_atletas\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `players...', Array, false)
+#4 C:\xampp\htdocs\apps\gest_atletas\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apps\gest_atletas\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\apps\gest_atletas\app\Models\PlayerModel.php(32): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\apps\gest_atletas\app\Controllers\Players.php(20): App\Models\PlayerModel->getPlayerWithClub(NULL)
+#8 C:\xampp\htdocs\apps\gest_atletas\system\CodeIgniter.php(919): App\Controllers\Players->index()
+#9 C:\xampp\htdocs\apps\gest_atletas\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+#10 C:\xampp\htdocs\apps\gest_atletas\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\apps\gest_atletas\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-07-23 14:31:42 --> Table 'gestor_denuncias.clubs' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `players`.*, `clubs`.`nombre` as `club_nombre`
+FROM `players`
+JOIN `clubs` ON `clubs`.`id` = `players`.`club_id`
+WHERE `players`.`id` IS NULL
+ LIMIT 1', [], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\PlayerModel.php(32): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Players.php(20): App\Models\PlayerModel->getPlayerWithClub(null)
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Players->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-07-23 14:31:49 --> mysqli_sql_exception: Table 'gestor_denuncias.clubs' doesn't exist in C:\xampp\htdocs\apps\gest_atletas\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\apps\gest_atletas\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `players...', 0)
+#1 C:\xampp\htdocs\apps\gest_atletas\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `players...')
+#2 C:\xampp\htdocs\apps\gest_atletas\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `players...')
+#3 C:\xampp\htdocs\apps\gest_atletas\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `players...', Array, false)
+#4 C:\xampp\htdocs\apps\gest_atletas\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apps\gest_atletas\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\apps\gest_atletas\app\Models\PlayerModel.php(32): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\apps\gest_atletas\app\Controllers\Players.php(20): App\Models\PlayerModel->getPlayerWithClub(NULL)
+#8 C:\xampp\htdocs\apps\gest_atletas\system\CodeIgniter.php(919): App\Controllers\Players->index()
+#9 C:\xampp\htdocs\apps\gest_atletas\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+#10 C:\xampp\htdocs\apps\gest_atletas\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\apps\gest_atletas\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-07-23 14:31:49 --> Table 'gestor_denuncias.clubs' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `players`.*, `clubs`.`nombre` as `club_nombre`
+FROM `players`
+JOIN `clubs` ON `clubs`.`id` = `players`.`club_id`
+WHERE `players`.`id` IS NULL
+ LIMIT 1', [], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\PlayerModel.php(32): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Players.php(20): App\Models\PlayerModel->getPlayerWithClub(null)
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Players->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-07-23 14:32:24 --> mysqli_sql_exception: Unknown column 'clubs.nombre' in 'field list' in C:\xampp\htdocs\apps\gest_atletas\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\apps\gest_atletas\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `players...', 0)
+#1 C:\xampp\htdocs\apps\gest_atletas\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `players...')
+#2 C:\xampp\htdocs\apps\gest_atletas\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `players...')
+#3 C:\xampp\htdocs\apps\gest_atletas\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `players...', Array, false)
+#4 C:\xampp\htdocs\apps\gest_atletas\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apps\gest_atletas\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\apps\gest_atletas\app\Models\PlayerModel.php(32): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\apps\gest_atletas\app\Controllers\Players.php(20): App\Models\PlayerModel->getPlayerWithClub(NULL)
+#8 C:\xampp\htdocs\apps\gest_atletas\system\CodeIgniter.php(919): App\Controllers\Players->index()
+#9 C:\xampp\htdocs\apps\gest_atletas\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+#10 C:\xampp\htdocs\apps\gest_atletas\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\apps\gest_atletas\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-07-23 14:32:24 --> Unknown column 'clubs.nombre' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `players`.*, `clubs`.`nombre` as `club_nombre`
+FROM `players`
+JOIN `teams` ON `teams`.`id` = `players`.`club_id`
+WHERE `players`.`id` IS NULL
+ LIMIT 1', [], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\PlayerModel.php(32): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Players.php(20): App\Models\PlayerModel->getPlayerWithClub(null)
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Players->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-07-23 14:32:25 --> mysqli_sql_exception: Unknown column 'clubs.nombre' in 'field list' in C:\xampp\htdocs\apps\gest_atletas\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\apps\gest_atletas\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `players...', 0)
+#1 C:\xampp\htdocs\apps\gest_atletas\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `players...')
+#2 C:\xampp\htdocs\apps\gest_atletas\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `players...')
+#3 C:\xampp\htdocs\apps\gest_atletas\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `players...', Array, false)
+#4 C:\xampp\htdocs\apps\gest_atletas\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apps\gest_atletas\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\apps\gest_atletas\app\Models\PlayerModel.php(32): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\apps\gest_atletas\app\Controllers\Players.php(20): App\Models\PlayerModel->getPlayerWithClub(NULL)
+#8 C:\xampp\htdocs\apps\gest_atletas\system\CodeIgniter.php(919): App\Controllers\Players->index()
+#9 C:\xampp\htdocs\apps\gest_atletas\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+#10 C:\xampp\htdocs\apps\gest_atletas\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\apps\gest_atletas\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-07-23 14:32:25 --> Unknown column 'clubs.nombre' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `players`.*, `clubs`.`nombre` as `club_nombre`
+FROM `players`
+JOIN `teams` ON `teams`.`id` = `players`.`club_id`
+WHERE `players`.`id` IS NULL
+ LIMIT 1', [], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\PlayerModel.php(32): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Players.php(20): App\Models\PlayerModel->getPlayerWithClub(null)
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Players->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-07-23 14:32:27 --> mysqli_sql_exception: Unknown column 'clubs.nombre' in 'field list' in C:\xampp\htdocs\apps\gest_atletas\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\apps\gest_atletas\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `players...', 0)
+#1 C:\xampp\htdocs\apps\gest_atletas\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `players...')
+#2 C:\xampp\htdocs\apps\gest_atletas\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `players...')
+#3 C:\xampp\htdocs\apps\gest_atletas\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `players...', Array, false)
+#4 C:\xampp\htdocs\apps\gest_atletas\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apps\gest_atletas\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\apps\gest_atletas\app\Models\PlayerModel.php(32): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\apps\gest_atletas\app\Controllers\Players.php(20): App\Models\PlayerModel->getPlayerWithClub(NULL)
+#8 C:\xampp\htdocs\apps\gest_atletas\system\CodeIgniter.php(919): App\Controllers\Players->index()
+#9 C:\xampp\htdocs\apps\gest_atletas\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+#10 C:\xampp\htdocs\apps\gest_atletas\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\apps\gest_atletas\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-07-23 14:32:27 --> Unknown column 'clubs.nombre' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `players`.*, `clubs`.`nombre` as `club_nombre`
+FROM `players`
+JOIN `teams` ON `teams`.`id` = `players`.`club_id`
+WHERE `players`.`id` IS NULL
+ LIMIT 1', [], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\PlayerModel.php(32): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Players.php(20): App\Models\PlayerModel->getPlayerWithClub(null)
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Players->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 14:34:47 --> syntax error, unexpected identifier "s"
+in APPPATH\Controllers\Players.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Controllers\\Players.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Players')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Players')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Players', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 14:34:55 --> Cannot access offset of type string on string
+in APPPATH\Views\players\index.php on line 89.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('players/index', [], true)
+ 4 APPPATH\Controllers\Players.php(23): view('players/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Players->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 14:35:08 --> Cannot access offset of type string on string
+in APPPATH\Views\players\index.php on line 89.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('players/index', [], true)
+ 4 APPPATH\Controllers\Players.php(23): view('players/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Players->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-07-23 14:39:20 --> mysqli_sql_exception: Unknown column 'clubs.ciudad' in 'field list' in C:\xampp\htdocs\apps\gest_atletas\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\apps\gest_atletas\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `players...', 0)
+#1 C:\xampp\htdocs\apps\gest_atletas\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `players...')
+#2 C:\xampp\htdocs\apps\gest_atletas\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `players...')
+#3 C:\xampp\htdocs\apps\gest_atletas\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `players...', Array, false)
+#4 C:\xampp\htdocs\apps\gest_atletas\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\apps\gest_atletas\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\apps\gest_atletas\app\Models\PlayerModel.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\apps\gest_atletas\app\Controllers\Players.php(20): App\Models\PlayerModel->getWithClub()
+#8 C:\xampp\htdocs\apps\gest_atletas\system\CodeIgniter.php(919): App\Controllers\Players->index()
+#9 C:\xampp\htdocs\apps\gest_atletas\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+#10 C:\xampp\htdocs\apps\gest_atletas\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\apps\gest_atletas\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-07-23 14:39:20 --> Unknown column 'clubs.ciudad' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `players`.*, `teams`.`nombre_club` as `club_nombre`, `clubs`.`ciudad` as `club_ciudad`
+FROM `players`
+JOIN `teams` ON `teams`.`id` = `players`.`club_id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\PlayerModel.php(23): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Players.php(20): App\Models\PlayerModel->getWithClub()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Players->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 14:39:40 --> Undefined array key "anio_fundacion"
+in APPPATH\Views\players\index.php on line 95.
+ 1 APPPATH\Views\players\index.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "anio_fundacion"', 'C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\index.php', 95)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('players/index', [], true)
+ 5 APPPATH\Controllers\Players.php(23): view('players/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Players->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 14:40:17 --> Undefined array key "ciuadd"
+in APPPATH\Views\players\index.php on line 96.
+ 1 APPPATH\Views\players\index.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ciuadd"', 'C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\index.php', 96)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('players/index', [], true)
+ 5 APPPATH\Controllers\Players.php(23): view('players/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Players->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 14:40:57 --> Undefined array key "club_ciuadd"
+in APPPATH\Views\players\index.php on line 96.
+ 1 APPPATH\Views\players\index.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "club_ciuadd"', 'C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\index.php', 96)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('players/index', [], true)
+ 5 APPPATH\Controllers\Players.php(23): view('players/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Players->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 14:41:05 --> Undefined array key "club_ciuadd"
+in APPPATH\Views\players\index.php on line 96.
+ 1 APPPATH\Views\players\index.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "club_ciuadd"', 'C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\index.php', 96)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('players/index', [], true)
+ 5 APPPATH\Controllers\Players.php(23): view('players/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Players->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 14:42:05 --> Undefined array key "licencia"
+in APPPATH\Views\players\index.php on line 97.
+ 1 APPPATH\Views\players\index.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "licencia"', 'C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\index.php', 97)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('players/index', [], true)
+ 5 APPPATH\Controllers\Players.php(23): view('players/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Players->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-23 14:42:09 --> Undefined array key "licencia"
+in APPPATH\Views\players\index.php on line 97.
+ 1 APPPATH\Views\players\index.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "licencia"', 'C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\index.php', 97)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\apps\\gest_atletas\\app\\Views\\players\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('players/index', [], true)
+ 5 APPPATH\Controllers\Players.php(23): view('players/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Players->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Players))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
