@@ -6,9 +6,9 @@ use CodeIgniter\Config\BaseConfig;
 
 /**
  * Encryption configuration.
- *git a
+ *
  * These are the settings used for encryption, if you don't pass a parameter
- * array to the encrypter for creation/initialization.
+ * array to the encrypter for crgit eation/initialization.
  */
 class Encryption extends BaseConfig
 {
