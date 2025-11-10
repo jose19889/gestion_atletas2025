@@ -36,3 +36,34 @@ Stack trace:
 #14 C:\xampp\htdocs\apps\gest_atletas\vendor\phpunit\phpunit\phpunit(107): PHPUnit\TextUI\Command::main()
 #15 C:\xampp\htdocs\apps\gest_atletas\vendor\bin\phpunit(122): include('C:\\xampp\\htdocs...')
 #16 {main}
+ERROR - 2025-11-10 11:06:27 --> mysqli_sql_exception: Table 'files' already exists in C:\xampp\htdocs\apps\gest_atletas\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\apps\gest_atletas\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `f...', 0)
+#1 C:\xampp\htdocs\apps\gest_atletas\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `f...')
+#2 C:\xampp\htdocs\apps\gest_atletas\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `f...')
+#3 C:\xampp\htdocs\apps\gest_atletas\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `f...')
+#4 C:\xampp\htdocs\apps\gest_atletas\app\Database\Migrations\2024-11-06-132538_CreateFilesTable.php(36): CodeIgniter\Database\Forge->createTable('files')
+#5 C:\xampp\htdocs\apps\gest_atletas\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateFilesTable2025->up()
+#6 C:\xampp\htdocs\apps\gest_atletas\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\apps\gest_atletas\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\apps\gest_atletas\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\apps\gest_atletas\system\CLI\BaseCommand.php(115): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\apps\gest_atletas\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp\htdocs\apps\gest_atletas\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\apps\gest_atletas\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\apps\gest_atletas\spark(102): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2025-11-10 11:06:50 --> mysqli_sql_exception: Table 'files' already exists in C:\xampp\htdocs\apps\gest_atletas\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\apps\gest_atletas\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `f...', 0)
+#1 C:\xampp\htdocs\apps\gest_atletas\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `f...')
+#2 C:\xampp\htdocs\apps\gest_atletas\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `f...')
+#3 C:\xampp\htdocs\apps\gest_atletas\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `f...')
+#4 C:\xampp\htdocs\apps\gest_atletas\app\Database\Migrations\2024-11-06-132538_CreateFilesTable.php(36): CodeIgniter\Database\Forge->createTable('files')
+#5 C:\xampp\htdocs\apps\gest_atletas\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateFilesTable2025->up()
+#6 C:\xampp\htdocs\apps\gest_atletas\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\apps\gest_atletas\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\apps\gest_atletas\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\apps\gest_atletas\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\apps\gest_atletas\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}

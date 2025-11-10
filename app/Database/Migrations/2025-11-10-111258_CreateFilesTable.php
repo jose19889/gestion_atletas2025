@@ -10,18 +10,18 @@ class CreateFilesTable extends Migration
     {
         $this->forge->addField([
             'id' => [
-                'type'           => 'INT',
-                'constraint'     => 5,
-                'unsigned'       => true,
+                'type' => 'INT',
+                'constraint' => 11,
+                'unsigned' => true,
                 'auto_increment' => true,
             ],
-            'file_name' => [
+            'name' => [
                 'type' => 'VARCHAR',
-                'constraint' => '255',
+                'constraint' => 255,
             ],
-            'file' => [
+            'path' => [
                 'type' => 'VARCHAR',
-                'constraint' => '255',
+                'constraint' => 255,
             ],
             'created_at' => [
                 'type' => 'DATETIME',
@@ -32,12 +32,13 @@ class CreateFilesTable extends Migration
                 'null' => true,
             ],
         ]);
+
         $this->forge->addKey('id', true);
-        $this->forge->createTable('files');
+        $this->forge->createTable('files', true); // true = solo si no existe
     }
 
     public function down()
     {
-        $this->forge->dropTable('files');
+        $this->forge->dropTable('files', true);
     }
 }
